@@ -36,7 +36,7 @@ En los últimos años, se han desarrollado diferentes enfoques para el aprendiza
 La inteligencia artificial se aplica en muchos campos y con los años su desarrollo y crecimiento está siendo abismal, al punto de que se está empezando a utilizar en casi todos los ámbitos y cada vez más personas se suman a su uso, ya sea por curiosidad o por la gran utilidad que tienen.
 
 
-¿Qué se entiende por Inteligencia?
+¿Qué se entiende por Inteligencia? 
 
 Inteligencia es quizás un concepto abstracto con el cual el ser humano define la capacidad que posee el cerebro de poder pensar, razonar, resolver problemas, aprender, adaptarse y tomar decisiones. Nos permite procesar información aplicando conocimientos previos y enfrentar nuevas situaciones o problemas que nos podamos encontrar.
 También se puede definir como la capacidad cognitiva y mental que permite a los individuos entender y funcionar en el mundo que los rodea.
