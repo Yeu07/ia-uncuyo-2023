@@ -125,10 +125,11 @@ Ante la posibilidad de máquinas ultrainteligentes, es importante diseñar siste
 Sin embargo, aplicar estas leyes puede ser complejo. Las ponderaciones entre estas leyes y las adaptaciones a situaciones cambiantes son desafíos a considerar en el diseño de IA amigable. El concepto de "salvaguardias" también es relevante, asegurando que los sistemas de IA evolucionen dentro de límites controlados.
 
 
-Segunda Parte
+Segunda Parte (Mapa Mental)
 
-Link a mapa mental:
+Link al mapa mental en Mindomo: 
 
+https://www.mindomo.com/mindmap/8f0b6be5a3ba439ead378538f2421316
 
 Tercera Parte (Opinion Personal)
 
