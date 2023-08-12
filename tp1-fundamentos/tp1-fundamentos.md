@@ -44,11 +44,18 @@ os estados mentales no pueden ser completamente explicados por procesos purament
     4.Los cerebros causan mentes.
 Se concluye que la ejecución de programas no es suficiente para generar mentes. Su argumento se basa en la idea de que los programas sintácticos no son equivalentes a la semántica y que la comprensión genuina requiere poderes causales específicos, como los que poseen las neuronas en el cerebro humano. No obstante, este enfoque también ha sido objeto de críticas y debates. Algunos argumentan que las intuiciones sobre la comprensión y la conciencia en este contexto pueden ser subjetivas y cuestionables. 
 
+se discuten las cuestiones relacionadas con la conciencia y los "qualia". La conciencia es un aspecto clave de la mente humana que plantea preguntas fundamentales sobre cómo se relaciona con la IA.
+
+La conciencia se refiere a la experiencia subjetiva y consciente de la realidad. Un aspecto particular de la conciencia es lo que se conoce como "qualia", que son las experiencias subjetivas o sensaciones internas que acompañan a los estados mentales.
+
+Se usa el experimento del "espectro invertido" que ilustra cómo los qualia pueden ser diferentes entre individuos mientras mantienen un comportamiento similar. En este experimento, se plantea la posibilidad de que dos personas vean los colores de manera invertida en comparación con el resto de la población. Aunque sus comportamientos y lenguaje se mantienen igual, sus experiencias subjetivas son diferentes.
 
 
+La discusión sobre la conciencia y los qualia en el contexto de la IA fuerte es relevante porque plantea la pregunta de si las máquinas pueden desarrollar experiencias subjetivas similares a los humanos.
 
 
 La ética y los riesgos de desarrollar inteligencia artificial
+
 
 
 
