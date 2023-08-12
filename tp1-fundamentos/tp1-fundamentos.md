@@ -25,9 +25,31 @@ Algo que viene a desmentir el pensamiento de que las maquinas solo siguen reglas
 
 Inteligencia artificial fuerte
 
-Muchos filosofos afirman que aunque una maquina pase la prueba de Turing, serian incapaces de pensar de verdad
+Muchos filosofos afirman que aunque una maquina pase la prueba de Turing, serian incapaces de pensar de verdad.
+
+si una máquina que pasa la Prueba de Turing realmente pensaría o simplemente simularía el pensamiento. Turing anticipó esta objeción y se refirió a ella como el "argumento de la conciencia". Se plantea la cuestión de si una máquina debe ser consciente de sus propios estados mentales y emociones, y si debe tener la capacidad de sentir emociones.
+
+Turing Comparó esta situación con la cortesía de asumir que todos piensan en la vida cotidiana. Tambien sugirió que, a medida que las máquinas se vuelvan más sofisticadas, la distinción entre pensamiento "real" y "artificial" podría desaparecer.
+
+Se habla sobre los estados mentales y el cerebro desde una perspectiva fisicalista. Los estados mentales, como creer o saber, se relacionan con el mundo exterior y se supone que están determinados por los estados cerebrales. Sin embargo, se presenta un experimento mental en el que el cerebro de una persona se coloca en una cuba que simula una vida completa, incluida la interacción con el mundo y las experiencias como comer hamburguesas. A pesar de que el estado cerebral es idéntico al de alguien que está comiendo una hamburguesa real, se argumenta que no tendría el estado mental correspondiente, ya que no está experimentando realmente esas situaciones.
+
+La solución propuesta es distinguir entre el "contenido amplio" y el "contenido estrecho" de los estados mentales. El contenido amplio considera tanto el estado cerebral como el entorno en su interpretación, mientras que el contenido estrecho solo se basa en el estado cerebral. El contenido amplio es útil para comprender y predecir el comportamiento de otros, mientras que el contenido estrecho es más relevante para evaluar si los sistemas de inteligencia artificial realmente piensan y tienen estados mentales.
+
+El funcionalismo sostiene que los estados mentales son condiciones causales intermedias entre la entrada y la salida de un sistema. Según esta teoría, dos sistemas con procesos causales isomórficos tendrían los mismos estados mentales. Un experimento mental llamado "experimento de sustitución del cerebro" ilustra esta idea. En este experimento, se imagina un escenario donde el cerebro humano es reemplazado gradualmente por dispositivos electrónicos mientras el comportamiento externo del sujeto permanece inalterado. El debate surge entre si la conciencia también se mantendría o desaparecería durante este proceso. Mientras algunos, creen que la conciencia persistiría, otros,argumentan que se perdería.
+
+os estados mentales no pueden ser completamente explicados por procesos puramente sintácticos, como sugiere el funcionalismo. La semántica y la sintaxis son insuficientes para explicar la mente y que la conciencia es producto de propiedades causales específicas de las neuronas en el cerebro humano. Se usa el "Experimento de la Habitación China". En este escenario imaginario, una persona dentro de una habitación recibe símbolos en chino a través de una abertura y sigue instrucciones de un libro de reglas en inglés para producir respuestas en chino. A pesar de que el sistema parece comprender y generar respuestas en chino, se argumenta que ni la persona ni los elementos en la habitación entienden realmente el chino. Desde esta perspectiva, se sostiene que la ejecución de programas no es suficiente para la comprensión real. Se crean 4 axiomas a partir de este experimento:
+    1.Los programas informáticos son formales (sintácticos).
+    2.Las mentes humanas tienen contenidos mentales (semántica).
+    3.La sintaxis por sí misma no es suficiente para la semántica.
+    4.Los cerebros causan mentes.
+Se concluye que la ejecución de programas no es suficiente para generar mentes. Su argumento se basa en la idea de que los programas sintácticos no son equivalentes a la semántica y que la comprensión genuina requiere poderes causales específicos, como los que poseen las neuronas en el cerebro humano. No obstante, este enfoque también ha sido objeto de críticas y debates. Algunos argumentan que las intuiciones sobre la comprensión y la conciencia en este contexto pueden ser subjetivas y cuestionables. 
+
+
+
+
 
 La ética y los riesgos de desarrollar inteligencia artificial
+
 
 
 Segunda Parte
