@@ -16,9 +16,13 @@ Si bien hay algunas conjeturas que las máquinas no pueden responder y por eso s
 También Turing desarrollo una teoría en la cual decía que “el comportamiento humano es demasiado complejo para ser capturado por un conjunto de reglas” y dado que las máquinas no pueden hacer más que seguir un conjunto de reglas, no pueden generar un comportamiento tan inteligente como el de los humanos.
 
 Algo que viene a desmentir el pensamiento de que las maquinas solo siguen reglas son las redes neuronales, las cual a partir de reglas pueden generar pensamientos y tomar decisiones. 2 filósofos debaten que las redes neuronales siguen sin parecerse a los humanos debido a estos 4 puntos:
+
 1— Una generalización a partir de ejemplos no puede lograrse sin conocimientos previos, sin embargo, las redes neuronales son capaces de registrar y almacenar conocimientos previos.
+
 2— El aprendizaje de redes neuronales es supervisado, sin embargo, también puede no ser supervisado.
+
 3— Los algoritmos de aprendizaje no funcionan bien con características cambiantes y grandes cantidades, sin embargo, actualmente sí funcionan bien en ambos casos.
+
 4— El cerebro es capaz de dirigir sus sensores para buscar la información correcta, din embargo, la teoría del valor de la información se encarga de dirigir los sensores, por ejemplo robots.
 
 
@@ -38,10 +42,14 @@ La solución propuesta es distinguir entre el "contenido amplio" y el "contenido
 El funcionalismo sostiene que los estados mentales son condiciones causales intermedias entre la entrada y la salida de un sistema. Según esta teoría, dos sistemas con procesos causales isomórficos tendrían los mismos estados mentales. Un experimento mental llamado "experimento de sustitución del cerebro" ilustra esta idea. En este experimento, se imagina un escenario donde el cerebro humano es reemplazado gradualmente por dispositivos electrónicos mientras el comportamiento externo del sujeto permanece inalterado. El debate surge entre si la conciencia también se mantendría o desaparecería durante este proceso. Mientras algunos, creen que la conciencia persistiría, otros,argumentan que se perdería.
 
 os estados mentales no pueden ser completamente explicados por procesos puramente sintácticos, como sugiere el funcionalismo. La semántica y la sintaxis son insuficientes para explicar la mente y que la conciencia es producto de propiedades causales específicas de las neuronas en el cerebro humano. Se usa el "Experimento de la Habitación China". En este escenario imaginario, una persona dentro de una habitación recibe símbolos en chino a través de una abertura y sigue instrucciones de un libro de reglas en inglés para producir respuestas en chino. A pesar de que el sistema parece comprender y generar respuestas en chino, se argumenta que ni la persona ni los elementos en la habitación entienden realmente el chino. Desde esta perspectiva, se sostiene que la ejecución de programas no es suficiente para la comprensión real. Se crean 4 axiomas a partir de este experimento:
-    1.Los programas informáticos son formales (sintácticos).
-    2.Las mentes humanas tienen contenidos mentales (semántica).
-    3.La sintaxis por sí misma no es suficiente para la semántica.
-    4.Los cerebros causan mentes.
+
+1.Los programas informáticos son formales (sintácticos).
+    
+ 2.Las mentes humanas tienen contenidos mentales (semántica).
+    
+3.La sintaxis por sí misma no es suficiente para la semántica.
+    
+4.Los cerebros causan mentes.
 Se concluye que la ejecución de programas no es suficiente para generar mentes. Su argumento se basa en la idea de que los programas sintácticos no son equivalentes a la semántica y que la comprensión genuina requiere poderes causales específicos, como los que poseen las neuronas en el cerebro humano. No obstante, este enfoque también ha sido objeto de críticas y debates. Algunos argumentan que las intuiciones sobre la comprensión y la conciencia en este contexto pueden ser subjetivas y cuestionables. 
 
 se discuten las cuestiones relacionadas con la conciencia y los "qualia". La conciencia es un aspecto clave de la mente humana que plantea preguntas fundamentales sobre cómo se relaciona con la IA.
