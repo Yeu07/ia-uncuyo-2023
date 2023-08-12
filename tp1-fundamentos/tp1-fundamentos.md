@@ -130,9 +130,13 @@ Segunda Parte
 Link a mapa mental:
 
 
-Tercera Parte
+Tercera Parte (Opinion Personal)
 
+Considero que este capítulo es muy interesante para realizar un debate, yo soy fiel partidario de decir y opinar que las IA nunca van a imitar completamente el comportamiento y razonamiento humano, al fin y al cabo son algoritmos creados por los mismos humanos, estos algoritmos solo cumplen para realizar la tarea que el ser humano programo y diseño para ellos, si bien cada vez están más avanzados, creo que el ser humano está por un nivel superior a todo razonamiento o pensamiento que pueda desarrollar una máquina. Creo que la mente humana va mucho más allá debido a que el ser humano tiene otra habilidad más cognitiva y cerebral que considero que las máquinas jamás van a ser capaces de igualar o superar.
 
+Respecto a la parte ética de las IA, considero que todavía queda mucho por aprender y desarrollar sobre las IA, considero que recién estamos viendo la punta del iceberg de todo este desarrollo tecnológico. ¿Se podría usar para malos fines? Sí, por eso, debemos educar, enseñar y capacitar a las personas para que las utilicen de forma adecuada. Considero que son peligrosas? Si se utilizan de forma incorrecta sí, pero a su vez han venido para quedarse y facilitarnos y ayudarnos en todos los aspectos y ámbitos. ¿Nos van a reemplazar? No, creo que como ya hemos hecho en otras revoluciones, vamos a adaptarnos y generar nuevos empleos, ideas de negocios, etc. 
+
+Únicamente encuentro cosas positivas respecto al crecimiento y desarrollo de las IA, son muy útiles, eficientes y considero que en unos años van a estar al alcance de cualquier persona.
 Ejercicio 2
 
 Yo defiendo completamente el uso y creación de las IA, considero que son muy útiles, ya que se pueden usar en prácticamente cualquier ámbito como entretenimiento, salud, arte, deporte, ingenieras, matemática, etc. Por lo tanto, no estoy muy de acuerdo con el artículo.
