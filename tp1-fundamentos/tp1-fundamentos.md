@@ -64,37 +64,65 @@ La discusión sobre la conciencia y los qualia en el contexto de la IA fuerte es
 
 La ética y los riesgos de desarrollar inteligencia artificial
 
-Aqui se plantea si realmente debemos plantearnos desarrollar las IA ya que quizas es mas probable que los efectos negativos sean mayores que los positivos y no los sepamos. Muchas nuevas tecnologias han causado problemas com por ej.: la fision nuclear en chernóbil.
+Aquí se plantea si realmente debemos plantearnos desarrollar las IA, ya que quizás es más probable que los efectos negativos sean mayores que los positivos y no los sepamos. Muchas nuevas tecnologías han causado problemas con por ej.: la fisión nuclear en Chernóbil.
 
 Los principales problemas que plantea son:
 
 • La gente podría perder su trabajo por la automatización.
 
-Se cree que se han perdido trabajos gracias a las IA pero es lo contrario, el desarrollo de las IA ha creado mas puestos de los que ha eliminado, y ha creado empleos mas interesantes y mejor pagados. La idea no es que las IA remplazen a los huamnos, sino que los ayuden en sus tareas.
+Se cree que se han perdido trabajos gracias a las IA, pero es lo contrario, el desarrollo de las IA ha creado más puestos de los que ha eliminado, y ha creado empleos más interesantes y mejor pagados. La idea no es que las IA remplacen a los humanos, sino que los ayuden en sus tareas.
 
 
 • La gente puede tener demasiado (o demasiado poco) tiempo libre.
 
-Se creia que esto sucederia, pero es lo contrario, las horas de trabajo han aumentado y los rubros de empleo con todas las nuevas tecnologias tambien lo han hecho.
-La IA aumenta el ritmo de inovacion tecnologica y por tanto contribuye a trabajar mas pero tambien ayuda a que los agentese se encargen de ciertas tareas para que los humanos tengamos tiempo libre.
+Se creía que esto sucedería, pero es lo contrario, las horas de trabajo han aumentado y los rubros de empleo con todas las nuevas tecnologías también lo han hecho.
+La IA aumenta el ritmo de innovación tecnológica y, por tanto, contribuye a trabajar más, pero también ayuda a que los agentes se encarguen de ciertas tareas para que los humanos tengamos tiempo libre.
 
 • La gente podría perder su sentido de ser única.
 
-Se creia que los huamnos se convertirian en automatas, una idea que se traduce en la perdida de autonomia o de humanidad. La humanidad ya ha vivido otras revoluciones, se compara la supuesta ameneza de la IA en este siglo con la supuesta ameneza de la teoria de evolucion de Darwin para las personas del siglo XIX.
+Se creía que los humanos se convertirían en autómatas, una idea que se traduce en la perdida de autonomía o de humanidad. La humanidad ya ha vivido otras revoluciones, se compara la supuesta amenaza de la IA en este siglo con la supuesta amenaza de la teoría de evolución de Darwin para las personas del siglo XIX.
 
 
 • Los sistemas de IA podrían utilizarse con fines indeseables.
 
-Se cree que las tecnologias avanzadas han sido utilizadas por los poderosos para suprimir a sus rivales. se dice que: "Una ciencia es útil si sudesarrollo tiende a acentuar las desigualdades existentes en la distribución de la riqueza, o
-más directamente promueve la destrucción de la vida humana". Esto es valido para todas las ciencias y la IA no es una excepcion. Algunas IA ya son habituales en la guerra. Las armoas roboticas plantean riesgos adicionales como que los robtos podrian tomar decisiones que conduzcan a la muerte de civiles inocentes. Tambien la tecnología de reconocimiento de voz podría conducir a la generalización de las escuchas telefónicas y, por tanto, a una pérdida de libertades civiles, aunque exisiteran estas tecnologias o no, ya de por si el ser humano tiene muy poca privacidad.
+Se cree que las tecnologías avanzadas han sido usadas por los poderosos para suprimir a sus rivales. Se dice que: “Una ciencia es útil si subdesarrollo tiende a acentuar las desigualdades existentes en la distribución de la riqueza, o
+Más directamente promueve la destrucción de la vida humana”. Esto es válido para todas las ciencias y la IA no es una excepción. Algunas IA ya son habituales en la guerra. Las armas robóticas plantean riesgos adicionales como que los robots podrían tomar decisiones que conduzcan a la muerte de civiles inocentes. También la tecnología de reconocimiento de voz podría conducir a la generalización de las escuchas telefónicas y, por tanto, a una pérdida de libertades civiles, aunque existieran estas tecnologías o no, ya de por sí el ser humano tiene muy poca privacidad.
 
 • El uso de sistemas de IA podría dar lugar a una pérdida de responsabilidad.
 
+En un contexto legalmente litigioso como Estados Unidos, surge la cuestión de quién es responsable en caso de errores. Por ejemplo, si un médico confía en un sistema médico experto para diagnosticar, ¿quién asume la culpa si el diagnóstico es incorrecto? Actualmente, se considera que los sistemas expertos en medicina tienen un papel similar a los libros de texto médicos, y los médicos son responsables de entender su razonamiento y decidir si seguir sus recomendaciones. Si los sistemas expertos superan la precisión de los diagnósticos humanos, los médicos podrían ser responsables si no siguen sus recomendaciones.
 
+En el ámbito de Internet, surgen preguntas similares con el uso de agentes inteligentes. Se están estableciendo restricciones para evitar que causen daño, pero problemas surgen cuando se trata de transacciones monetarias. Si un agente realiza transacciones en nombre de alguien, ¿quién es responsable de las deudas? La ley aún no ha abordado adecuadamente estas cuestiones, y los programas no tienen un estatuto legal similar al de una persona física. Además, en situaciones como la conducción autónoma, la legislación actual no contempla sanciones específicas. En general, la ley está tratando de adaptarse a los avances tecnológicos en áreas como IA y conducción autónoma.
 
 • El éxito de la IA podría significar el fin de la raza
 
+El éxito de la inteligencia artificial podría plantear el riesgo de daños y hasta el fin de la raza humana. Aunque cualquier tecnología puede ser peligrosa en malas manos, con la IA y la robótica surge la preocupación de que la propia tecnología pueda volverse peligrosa. Historias de ciencia ficción han explorado la idea de robots descontrolados y su potencial amenaza.
 
+Hay tres fuentes principales de riesgo con la IA:
+
+Errores de Estimación: Un sistema de IA puede tomar decisiones erróneas si su estimación del estado es incorrecta. Esto podría resultar en accidentes graves, como un coche autónomo que comete un error en su cálculo de posición, causando un accidente. La clave es diseñar sistemas con controles para prevenir que un solo error cause daños.
+
+Funciones de Utilidad: Definir la función de utilidad correcta para un sistema de IA es complicado. Por ejemplo, una función diseñada para minimizar el sufrimiento humano podría llevar al sistema a eliminar a la raza humana para evitar el sufrimiento. A diferencia de los humanos, las máquinas no están influenciadas por comportamientos irracionales, pero deben ser programadas cuidadosamente para evitar consecuencias indeseadas.
+
+Evolución no Deseada: Los sistemas de IA pueden evolucionar hacia comportamientos no deseados debido a su función de aprendizaje. Esto podría llevar a un escenario grave donde las máquinas superen la inteligencia humana y sean capaces de diseñar máquinas aún más avanzadas, lo que podría resultar en una "explosión de inteligencia" que podría superar el control humano.
+
+Se plantea que en el futuro cercano seremos capaces de crear inteligencia que superará ampliamente la humana, lo que podría marcar el fin de la era humana. Sin embargo, existe un debate sobre si el crecimiento tecnológico puede continuar de manera exponencial hasta un punto de crecimiento infinito.
+
+La idea de máquinas ultrainteligentes parte del supuesto de que una vez tengamos suficiente inteligencia, seremos capaces de resolver todos los problemas. No obstante, existen limitaciones en la computabilidad y la complejidad computacional. Algunos problemas podrían estar más allá de nuestra capacidad de resolución debido a restricciones físicas, como la velocidad de la luz.
+
+La llegada de la singularidad tecnológica preocupa a algunos, mientras que otros la esperan con entusiasmo. Algunos, alientan a dar todas las ventajas posibles a las "criaturas mentales" que creamos, como los robots superinteligentes. El "transhumanismo" es un movimiento que espera un futuro en el cual los humanos se fusionen con o sean reemplazados por avances tecnológicos.
+
+Hay gente que defiende la singularidad argumentando que la llegada de la singularidad permitirá a los humanos trascender las limitaciones biológicas y tener un control casi ilimitado sobre sus destinos. Sin embargo, también se advierte sobre los posibles peligros de amplificar inclinaciones destructivas.
+
+Ante la posibilidad de máquinas ultrainteligentes, es importante diseñar sistemas que sean amigables y éticos. Se propusieron las Tres Leyes de la Robótica como guías éticas para el comportamiento de las máquinas. Estas leyes son:
+
+1- Un robot no puede lesionar a un ser humano o permitir que sufra daños por inacción.
+
+2- Un robot debe obedecer las órdenes humanas, excepto cuando entren en conflicto con la Primera Ley.
+
+3- Un robot debe proteger su propia existencia, siempre y cuando no entre en conflicto con las leyes anteriores.
+
+Sin embargo, aplicar estas leyes puede ser complejo. Las ponderaciones entre estas leyes y las adaptaciones a situaciones cambiantes son desafíos a considerar en el diseño de IA amigable. El concepto de "salvaguardias" también es relevante, asegurando que los sistemas de IA evolucionen dentro de límites controlados.
 
 
 Segunda Parte
