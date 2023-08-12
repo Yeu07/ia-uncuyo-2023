@@ -64,6 +64,36 @@ La discusión sobre la conciencia y los qualia en el contexto de la IA fuerte es
 
 La ética y los riesgos de desarrollar inteligencia artificial
 
+Aqui se plantea si realmente debemos plantearnos desarrollar las IA ya que quizas es mas probable que los efectos negativos sean mayores que los positivos y no los sepamos. Muchas nuevas tecnologias han causado problemas com por ej.: la fision nuclear en chernóbil.
+
+Los principales problemas que plantea son:
+
+• La gente podría perder su trabajo por la automatización.
+
+Se cree que se han perdido trabajos gracias a las IA pero es lo contrario, el desarrollo de las IA ha creado mas puestos de los que ha eliminado, y ha creado empleos mas interesantes y mejor pagados. La idea no es que las IA remplazen a los huamnos, sino que los ayuden en sus tareas.
+
+
+• La gente puede tener demasiado (o demasiado poco) tiempo libre.
+
+Se creia que esto sucederia, pero es lo contrario, las horas de trabajo han aumentado y los rubros de empleo con todas las nuevas tecnologias tambien lo han hecho.
+La IA aumenta el ritmo de inovacion tecnologica y por tanto contribuye a trabajar mas pero tambien ayuda a que los agentese se encargen de ciertas tareas para que los humanos tengamos tiempo libre.
+
+• La gente podría perder su sentido de ser única.
+
+Se creia que los huamnos se convertirian en automatas, una idea que se traduce en la perdida de autonomia o de humanidad. La humanidad ya ha vivido otras revoluciones, se compara la supuesta ameneza de la IA en este siglo con la supuesta ameneza de la teoria de evolucion de Darwin para las personas del siglo XIX.
+
+
+• Los sistemas de IA podrían utilizarse con fines indeseables.
+
+Se cree que las tecnologias avanzadas han sido utilizadas por los poderosos para suprimir a sus rivales. se dice que: "Una ciencia es útil si sudesarrollo tiende a acentuar las desigualdades existentes en la distribución de la riqueza, o
+más directamente promueve la destrucción de la vida humana". Esto es valido para todas las ciencias y la IA no es una excepcion. Algunas IA ya son habituales en la guerra. Las armoas roboticas plantean riesgos adicionales como que los robtos podrian tomar decisiones que conduzcan a la muerte de civiles inocentes. Tambien la tecnología de reconocimiento de voz podría conducir a la generalización de las escuchas telefónicas y, por tanto, a una pérdida de libertades civiles, aunque exisiteran estas tecnologias o no, ya de por si el ser humano tiene muy poca privacidad.
+
+• El uso de sistemas de IA podría dar lugar a una pérdida de responsabilidad.
+
+
+
+• El éxito de la IA podría significar el fin de la raza
+
 
 
 
