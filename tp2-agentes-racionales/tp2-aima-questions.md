@@ -20,7 +20,7 @@ Sí, un agente reflexivo simple podría ser racional, ya que en este caso no se 
 
 ### b. Can a simple reflex agent with a randomized agent function outperform a simple reflex agent? Design such an agent and measure its performance on several environments.
 
-Sí, al no conocerse nada acerca del mundo, quizás un agente reflexivo simple con función aleatoria terminaría siguiendo rutas y caminos más beneficiosos que un simple agente reflexivo. Aunque son casos excepcionales
+No, un agente con una funcion random podria no aspirar cuando fuera necesario o hacer acciones que un agente reflexivo simple si haría.
 
 ### c. Can you design an environment in which your randomized agent will perform poorly? Show your results.
 

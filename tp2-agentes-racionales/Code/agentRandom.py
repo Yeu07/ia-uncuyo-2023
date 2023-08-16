@@ -1,7 +1,7 @@
 from environment import Environment
 import random
 
-class Agent:
+class AgentRandom:
     def __init__(self, env):
         self.env = env
         
@@ -28,20 +28,22 @@ class Agent:
         return self.env.is_dirty()
     
     def think(self):
-        if self.perspective():
-            self.suck()
-        else:
-            # Move randomly
-            actions = ["Arriba", "Abajo", "Izquierda", "Derecha"]
-            random_action = random.choice(actions)
+        # Move randomly
+        actions = ["Arriba", "Abajo", "Izquierda", "Derecha","Limpiar","Idle"]
+        random_action = random.choice(actions)
             
-            if random_action == "Arriba":
-                self.up()
-            elif random_action == "Abajo":
-                self.down()
-            elif random_action == "Izquierda":
-                self.left()
-            elif random_action == "Derecha":
-                self.right()
+        if random_action == "Arriba":
+            self.up()
+        elif random_action == "Abajo":
+            self.down()
+        elif random_action == "Izquierda":
+            self.left()
+        elif random_action == "Derecha":
+            self.right()
+        elif random_action == "Limpiar":
+            self.suck()
+        elif random_action == "Idle":
+            self.idle()
+        
 
 
