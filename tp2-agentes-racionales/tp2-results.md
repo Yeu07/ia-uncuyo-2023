@@ -138,7 +138,7 @@
 
 
 
-# Size 16x16
+## Size 16x16
 
 | Dirt Rate | Total Performance | Total Time Units |
 |-----------|-------------------|------------------|
