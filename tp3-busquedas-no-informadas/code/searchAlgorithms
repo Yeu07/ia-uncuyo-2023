@@ -1,7 +1,7 @@
 from node import Node
 from environment import Environment
 from collections import deque
-import math
+
 
 def performAction(position, action):
     x, y = position
@@ -115,16 +115,4 @@ def dls(env, start, goal, limit):
                 stack.insert(0,new_node)
 
     return None
-
-        
-
-
-
-
-for i in range(0,30):
-    env = Environment(100,100,0,0,99,99,0.08)
-    print(f"BFS: {bfs(env,env.start, env.goal)}")
-    print(f"DFS: {dfs(env,env.start, env.goal)}")
-    print(f"UCS: {ucs(env,env.start, env.goal)}")
-    limit = math.ceil(len(env.grid)*len(env.grid[0])/2)
-    print(f"DLS: {dls(env,env.start, env.goal, limit)}")
+    
