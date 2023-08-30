@@ -3,6 +3,7 @@ import random
 from environment import Environment
 from searchAlgorithms import *
 import matplotlib.pyplot as plt
+import csv
 
 def randomPos(max):
     return random.randint(0, max - 1)
@@ -35,6 +36,14 @@ for i in range(0,iterations):
     if result != None:
         resultsDLS.append(result)
 
+    print(f"[BFS]: {resultsBFS[i]}")
+    print(f"[DFS]: {resultsDFS[i]}")
+    print(f"[UCS]: {resultsUCS[i]}")
+    if i < len(resultsDLS):
+        print(f"[DLS]: {resultsDLS[i]}")
+    else:
+        print(f"[DLS]: {None}")
+
 algorithms = ["BFS", "DFS", "UCS", "DLS"]
 
 all_results = [resultsBFS, resultsDFS, resultsUCS, resultsDLS ]
@@ -44,5 +53,19 @@ plt.ylabel('Número de pasos')
 plt.title('Comparación de Algoritmos de Búsqueda')
 plt.savefig('boxplot_resultados.png')
 
+with open('no-informada-results.csv', 'w', newline='') as csvfile:
+    fieldnames = ['algorithm_name', 'run_n', 'estate_n', 'solution_found']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+
+    for run_n in range(iterations):
+        writer.writerow({'algorithm_name': 'BFS', 'run_n': run_n + 1, 'estate_n': resultsBFS[run_n], 'solution_found': 'Yes' if resultsBFS[run_n] is not None else 'No'})
+        writer.writerow({'algorithm_name': 'DFS', 'run_n': run_n + 1, 'estate_n': resultsDFS[run_n], 'solution_found': 'Yes' if resultsDFS[run_n] is not None else 'No'})
+        writer.writerow({'algorithm_name': 'UCS', 'run_n': run_n + 1, 'estate_n': resultsUCS[run_n], 'solution_found': 'Yes' if resultsUCS[run_n] is not None else 'No'})
+        if run_n < len(resultsDLS):
+            writer.writerow({'algorithm_name': 'DLS', 'run_n': run_n + 1, 'estate_n': resultsDLS[run_n], 'solution_found': 'Yes' if resultsDLS[run_n] is not None else 'No'})
+        else:
+            writer.writerow({'algorithm_name': 'DLS', 'run_n': run_n + 1, 'estate_n': limit , 'solution_found': 'No'})
 
 
