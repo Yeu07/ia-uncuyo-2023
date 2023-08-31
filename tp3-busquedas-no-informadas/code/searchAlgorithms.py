@@ -15,15 +15,14 @@ def performAction(position, action):
         return x, y + 1
 
 def bfs(env, start, goal):
-
-    list = deque([Node(start)])
+    node = Node(start)
+    queue = [node] 
 
     visited = set()
     count = 0
 
-    while list:
-
-        node = list.pop()
+    while queue:
+        node = queue.pop()
         visited.add(node.position)
         count += 1
 
@@ -32,15 +31,18 @@ def bfs(env, start, goal):
         
         for action in ["arriba", "abajo", "izquierda", "derecha"]:
             x, y = performAction(node.position, action)
-            if (x,y) not in visited and env.isValidLocation(x,y):
-                new_node = Node((x,y), node,)
-                list.append(new_node)
+            if (x, y) not in visited and env.isValidLocation(x, y):
+                new_node = Node((x, y), node, action)
+                visited.add(new_node.position)  # Marcamos el nuevo nodo como visitado
+                queue.append(new_node)
     
     return None
 
+
 def dfs(env, start, goal):
 
-    stack = [Node(start)]
+    node = Node(start)
+    stack = [node]
     visited = set()
     count = 0
 
@@ -90,17 +92,15 @@ def ucs(env, start, goal):
     return None
 
 def dls(env, start, goal, limit):
-
     stack = [Node(start)]
     visited = set()
     count = 0
 
     while stack:
-
-        node = stack.pop(0)
+        node = stack.pop()
         count += 1
         visited.add(node.position)
-        limit -=1
+        limit -= 1
 
         if node.position == goal:
             return count
@@ -110,9 +110,10 @@ def dls(env, start, goal, limit):
         
         for action in ["arriba", "abajo", "izquierda", "derecha"]:
             x, y = performAction(node.position, action)
-            if (x,y) not in visited and env.isValidLocation(x,y):
-                new_node = Node((x,y), node,)
-                stack.insert(0,new_node)
+            if (x, y) not in visited and env.isValidLocation(x, y):
+                new_node = Node((x, y), node)
+                stack.append(new_node)
 
     return None
+
     
