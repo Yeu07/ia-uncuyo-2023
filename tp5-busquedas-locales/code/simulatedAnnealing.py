@@ -1,7 +1,8 @@
 from board import Board
 import random
+import math
 
-def hillClimbing(n, maxEvaluations):
+def simulatedAnnealing(n, maxEvaluations):
     bestTable = Board(n)
     bestCost = bestTable.calculateCost()
     evaluations = 0
@@ -17,8 +18,14 @@ def hillClimbing(n, maxEvaluations):
         if newCost < bestCost:
             bestCost = newCost
             bestTable.board = newTable.board
+        else:
+            delta = newCost - bestCost
+            if random.random() < math.exp(-delta / 100):
+                bestCost = newCost
+                bestTable.board = newTable.board
 
         if bestCost == 0:
             return (bestTable, bestCost, evaluations)
-
+    
     return (bestTable, bestCost, evaluations)
+
