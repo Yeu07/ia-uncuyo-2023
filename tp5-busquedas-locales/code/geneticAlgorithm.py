@@ -52,7 +52,7 @@ def geneticAlgorithm(n, maxGenerations, plot):
 
             if plot:
                 plt.plot(fitness)
-                plt.title(f'GeneticAlgorithm {generation} evaluations')
+                plt.title(f'GeneticAlgorithm {generation} generations')
                 plt.savefig('geneticAlgorithm.png')
 
             return (bestpopultion, generation)
@@ -72,7 +72,7 @@ def geneticAlgorithm(n, maxGenerations, plot):
     if plot:
         print("hola")
         plt.plot(fitness)
-        plt.title(f'GeneticAlgorithm {generation} evaluations')
+        plt.title(f'GeneticAlgorithm {generation} generations')
         plt.savefig('geneticAlgorithm.png')
 
     return (bestpopultion, generation)

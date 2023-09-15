@@ -31,8 +31,8 @@ def simulatedAnnealing(n, maxEvaluations, plot = False):
 
             if plot:
                 plt.plot(fitness)
-                plt.title(f'hillClimbing {evaluations} evaluations')
-                plt.savefig('hillclimbing.png')
+                plt.title(f'SimulatedAnnaling {evaluations} evaluations')
+                plt.savefig('SimulatedAnnaling.png')
                 
             return (bestTable, evaluations)
         
