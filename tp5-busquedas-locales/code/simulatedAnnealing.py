@@ -8,15 +8,17 @@ def simulatedAnnealing(n, maxEvaluations, plot = False):
     bestCost = bestTable.calculateCost()
     evaluations = 0
     fitness = []
+    iteration = maxEvaluations
+    flag = True
 
-    while evaluations < maxEvaluations:
+    while evaluations < maxEvaluations and flag:
         newTable = Board(n)
         newTable.board = bestTable.board.copy()
         i, j = random.sample(range(n), 2)
         newTable.board[i], newTable.board[j] = newTable.board[j], newTable.board[i]
         newCost = newTable.calculateCost()
         evaluations += 1
-        fitness.append(newCost)
+        fitness.append(bestCost)
 
         if newCost < bestCost:
             bestCost = newCost
@@ -27,19 +29,14 @@ def simulatedAnnealing(n, maxEvaluations, plot = False):
                 bestCost = newCost
                 bestTable.board = newTable.board
 
-        if bestCost == 0:
-
-            if plot:
-                plt.plot(fitness)
-                plt.title(f'SimulatedAnnaling {evaluations} evaluations')
-                plt.savefig('SimulatedAnnaling.png')
-                
-            return (bestTable, evaluations)
+        if bestCost == 0 :
+            iteration = evaluations
+            flag = False
         
     if plot:
         plt.plot(fitness)
         plt.title(f'SimulatedAnnaling {evaluations} evaluations')
-        plt.savefig('simulatedAnnaling.png')
+        plt.savefig('tp5-busquedas-locales/Plots/simulatedAnnaling.png')
     
-    return (bestTable, evaluations)
+    return (bestTable, iteration)
 

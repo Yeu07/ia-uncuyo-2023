@@ -38,24 +38,22 @@ def geneticAlgorithm(n, maxGenerations, plot):
     popultion = []
     generation = 0
     fitness = []
+    iteration = maxGenerations
+    flag = True
 
     for i in range(populationSize):
         popultion.append(Board(n))
 
-    while generation < maxGenerations:
+    while generation < maxGenerations and flag:
         popultion = sorted(popultion, key=lambda x: x.calculateCost())
         bestpopultion = popultion[0]
         bestsolution = popultion[0].calculateCost()
         fitness.append(bestsolution)
 
         if bestsolution == 0:
-
-            if plot:
-                plt.plot(fitness)
-                plt.title(f'GeneticAlgorithm {generation} generations')
-                plt.savefig('geneticAlgorithm.png')
-
-            return (bestpopultion, generation)
+            iteration = generation
+            flag = False
+             
         
         newpopultion = [bestpopultion]
 
@@ -70,10 +68,9 @@ def geneticAlgorithm(n, maxGenerations, plot):
         generation += 1
     
     if plot:
-        print("hola")
         plt.plot(fitness)
         plt.title(f'GeneticAlgorithm {generation} generations')
-        plt.savefig('geneticAlgorithm.png')
+        plt.savefig('tp5-busquedas-locales/Plots/geneticAlgorithm.png')
 
-    return (bestpopultion, generation)
+    return (bestpopultion, iteration)
     

@@ -8,7 +8,7 @@ import csv
 import matplotlib.pyplot as plt
 
 problems = [4, 8, 10]
-maxEvaluations = [100, 1000, 10000]
+maxEvaluations = [200, 200, 200]
 it = 30
 plot = False
 
@@ -95,9 +95,9 @@ plt.title("Distribución de Tiempos de Ejecución por Algoritmo")
 plt.xlabel("Algoritmo")
 plt.ylabel("Tiempo de Ejecución (segundos)")
 plt.grid(True)
-plt.savefig("boxplot.png")
+plt.savefig("tp5-busquedas-locales/Plots/boxplot.png")
 
-with open('results.csv', 'w', newline='') as csvfile:
+with open('tp5-busquedas-locales/Results/results.csv', 'w', newline='') as csvfile:
     fieldnames = ['algorithm_name', 'run_n', 'estate_n', 'solution_found']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
