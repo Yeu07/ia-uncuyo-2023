@@ -1,11 +1,13 @@
 from board import Board
 import random
 import math
+import matplotlib.pyplot as plt
 
-def simulatedAnnealing(n, maxEvaluations):
+def simulatedAnnealing(n, maxEvaluations, plot = False):
     bestTable = Board(n)
     bestCost = bestTable.calculateCost()
     evaluations = 0
+    fitness = []
 
     while evaluations < maxEvaluations:
         newTable = Board(n)
@@ -14,6 +16,7 @@ def simulatedAnnealing(n, maxEvaluations):
         newTable.board[i], newTable.board[j] = newTable.board[j], newTable.board[i]
         newCost = newTable.calculateCost()
         evaluations += 1
+        fitness.append(newCost)
 
         if newCost < bestCost:
             bestCost = newCost
@@ -25,7 +28,18 @@ def simulatedAnnealing(n, maxEvaluations):
                 bestTable.board = newTable.board
 
         if bestCost == 0:
-            return (bestTable, bestCost, evaluations)
+
+            if plot:
+                plt.plot(fitness)
+                plt.title(f'hillClimbing {evaluations} evaluations')
+                plt.savefig('hillclimbing.png')
+                
+            return (bestTable, evaluations)
+        
+    if plot:
+        plt.plot(fitness)
+        plt.title(f'SimulatedAnnaling {evaluations} evaluations')
+        plt.savefig('simulatedAnnaling.png')
     
-    return (bestTable, bestCost, evaluations)
+    return (bestTable, evaluations)
 

@@ -1,6 +1,6 @@
 import random
 from board import Board
-
+import matplotlib.pyplot as plt
 def crossover(parent1, parent2):
     
         # Randomly select a crossover point
@@ -26,7 +26,7 @@ def mutation(child):
 
 
 
-def geneticAlgorithm(n, maxGenerations):
+def geneticAlgorithm(n, maxGenerations, plot):
 
     # Range of individuals between 100 and 200
     # Selection for tournament
@@ -37,6 +37,7 @@ def geneticAlgorithm(n, maxGenerations):
     populationSize = random.randint(100,200)
     popultion = []
     generation = 0
+    fitness = []
 
     for i in range(populationSize):
         popultion.append(Board(n))
@@ -45,10 +46,16 @@ def geneticAlgorithm(n, maxGenerations):
         popultion = sorted(popultion, key=lambda x: x.calculateCost())
         bestpopultion = popultion[0]
         bestsolution = popultion[0].calculateCost()
+        fitness.append(bestsolution)
 
         if bestsolution == 0:
 
-            return (bestpopultion, bestsolution, generation)
+            if plot:
+                plt.plot(fitness)
+                plt.title(f'GeneticAlgorithm {generation} evaluations')
+                plt.savefig('geneticAlgorithm.png')
+
+            return (bestpopultion, generation)
         
         newpopultion = [bestpopultion]
 
@@ -62,5 +69,11 @@ def geneticAlgorithm(n, maxGenerations):
         popultion = newpopultion
         generation += 1
     
-    return (bestpopultion, bestsolution, generation)
+    if plot:
+        print("hola")
+        plt.plot(fitness)
+        plt.title(f'GeneticAlgorithm {generation} evaluations')
+        plt.savefig('geneticAlgorithm.png')
+
+    return (bestpopultion, generation)
     
