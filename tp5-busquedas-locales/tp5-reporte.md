@@ -3,10 +3,19 @@
 ## Apartado A
 
 # Resultados de los algoritmos
-![Resultados de los algoritmos](Results/results.png)
+![Resultados para 4 reinas](Results/4queens.png)
+
+![Resultados para 8 reinas](Results/8queens.png)
+
+![Resultados para 10 reinas](Results/10queens.png)
 
 # Boxplot de los algoritmos
-![Boxplot de los algoritmos](Plots/boxplot.png)
+![Boxplot para 4 reinas](Plots/boxplot4.png)
+
+![Boxplot para 4 reinas](Plots/boxplot8.png)
+
+![Boxplot para 4 reinas](Plots/boxplot10.png)
+
 
 ## Apartado B
 
@@ -14,7 +23,7 @@
 ![Grafico funcion HillClmibing](Plots/hillClimbing.png)
 
 # Grafico de funcion simulatedAnnaling
-![Grafico funcion SimulatedAnnaling](Plots/simulatedAnnaling.png)
+![Grafico funcion SimulatedAnnaling](Plots/simulatedAnnealing.png)
 
 # Grafico de funcion GeneticAlgorithm
 ![Grafico funcion SimulatedAnnaling](Plots/geneticAlgorithm.png)

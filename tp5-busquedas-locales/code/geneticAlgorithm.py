@@ -28,13 +28,13 @@ def mutation(child):
 
 def geneticAlgorithm(n, maxGenerations, plot):
 
-    # Range of individuals between 100 and 200
+    # 100 individuals
     # Selection for tournament
     # Operators of crossover and mutation
     # Replace the entired population
     # Stop condition: maxGenerations
 
-    populationSize = random.randint(100,200)
+    populationSize = 100
     popultion = []
     generation = 0
     fitness = []

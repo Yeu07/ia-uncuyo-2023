@@ -3,13 +3,15 @@ import random
 import math
 import matplotlib.pyplot as plt
 
-def simulatedAnnealing(n, maxEvaluations, plot = False):
+def simulatedAnnealing(n, maxEvaluations, plot):
     bestTable = Board(n)
     bestCost = bestTable.calculateCost()
     evaluations = 0
     fitness = []
     iteration = maxEvaluations
     flag = True
+    temperature = 1000
+    coolingRate = 0.003
 
     while evaluations < maxEvaluations and flag:
         newTable = Board(n)
@@ -24,19 +26,22 @@ def simulatedAnnealing(n, maxEvaluations, plot = False):
             bestCost = newCost
             bestTable.board = newTable.board
         else:
-            delta = newCost - bestCost
-            if random.random() < math.exp(-delta / 100):
+            if random.uniform(0, 1) < math.exp((bestCost - newCost) / temperature):
                 bestCost = newCost
                 bestTable.board = newTable.board
 
-        if bestCost == 0 :
+        temperature *= 1 - coolingRate
+
+        if bestCost == 0:
             iteration = evaluations
             flag = False
-        
+
     if plot:
         plt.plot(fitness)
-        plt.title(f'SimulatedAnnaling {evaluations} evaluations')
-        plt.savefig('tp5-busquedas-locales/Plots/simulatedAnnaling.png')
-    
+        plt.title(f'Simulated Annealing {evaluations} evaluations')
+        plt.xlabel('Iterations')
+        plt.ylabel('Cost')
+        plt.savefig('tp5-busquedas-locales/Plots/simulatedAnnealing.png')
+
     return (bestTable, iteration)
 
