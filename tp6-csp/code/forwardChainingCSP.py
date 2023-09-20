@@ -1,7 +1,5 @@
-from board import *
+from board import printBoard
 
-
-# Forward checking algorithm using CSP
 
 def isSecure(board, row, col):
     for i in range(row):
@@ -11,7 +9,7 @@ def isSecure(board, row, col):
 
 def searchforwardChainingCSP(n):
     board = [-1] * n
-    domain = [set(range(n)) for i in range(n)]
+    domain = [[x for x in range(n)] for i in range(n)] 
 
     return forwardChainingCSP(board, domain, n, 0)
 
@@ -49,11 +47,3 @@ def forwardChainingCSP(board, domain, n, row, it=0):
             board[selected_variable] = -1
 
     return None, it
-             
-                
-            
-
-
-
-
-
