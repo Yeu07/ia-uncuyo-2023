@@ -35,13 +35,13 @@ Lo que quiere decir que el dominio es:
 
     WA: {rojo}
 
-    NT: {verde, azul} __Eliminamos rojo ya que WA es rojo__
+    NT: {verde, azul} Eliminamos rojo ya que WA es rojo
 
-    SA: {verde} __Eliminamos rojo y azul ya que WA es rojo y V es azul__
+    SA: {verde} Eliminamos rojo y azul ya que WA es rojo y V es azul
 
     Q: {rojo, verde, azul}
 
-    NSW: {rojo, verde} __Eliminamos azul ya que V es azul__
+    NSW: {rojo, verde} Eliminamos azul ya que V es azul
 
     V: {azul}
 
@@ -51,13 +51,13 @@ Ya que SA solo puede ser verde:
 
     WA: {rojo}
 
-    NT: {azul} __Eliminamos verde ya que SA es verde__
+    NT: {azul} Eliminamos verde ya que SA es verde
 
     SA: {verde} 
 
-    Q: {rojo, azul} __Eliminamos verde ya que SA es verde__
+    Q: {rojo, azul} Eliminamos verde ya que SA es verde
 
-    NSW: {rojo} __Eliminamos verde ya que SA es verde__
+    NSW: {rojo} Eliminamos verde ya que SA es verde
 
     V: {azul}
 
@@ -71,7 +71,7 @@ Ya que NT solo puede ser azul:
 
     SA: {verde} 
 
-    Q: {rojo} __Eliminamos azul ya que NT es azul__
+    Q: {rojo} Eliminamos azul ya que NT es azul
 
     NSW: {rojo}
 
@@ -89,7 +89,7 @@ Ya que Q solo puede ser rojo:
 
     Q: {rojo} 
 
-    NSW: {} __Eliminamos rojo ya que Q es rojo__
+    NSW: {} Eliminamos rojo ya que Q es rojo
 
     V: {azul}
 
