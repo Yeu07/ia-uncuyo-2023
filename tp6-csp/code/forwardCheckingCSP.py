@@ -7,11 +7,11 @@ def isSecure(board, row, col):
             return False
     return True
 
-def searchforwardChainingCSP(n):
+def searchforwardcheckingCSP(n):
     board = [-1] * n
     domain = [[x for x in range(n)] for i in range(n)] 
 
-    return forwardChainingCSP(board, domain, n, 0)
+    return forwardcheckingCSP(board, domain, n, 0)
 
 def selectVariableMRV(domain):
     min_domain_size = float('inf')
@@ -22,7 +22,7 @@ def selectVariableMRV(domain):
             selected_variable = i
     return selected_variable
 
-def forwardChainingCSP(board, domain, n, row, it=0):
+def forwardcheckingCSP(board, domain, n, row, it=0):
     if row == n:
         return board, it
 
@@ -38,7 +38,7 @@ def forwardChainingCSP(board, domain, n, row, it=0):
             for i in range(row + 1, n):
                 domain[i].remove(col)  
 
-            result, it = forwardChainingCSP(board, domain, n, row + 1, it + 1)
+            result, it = forwardcheckingCSP(board, domain, n, row + 1, it + 1)
             if result is not None:
                 return result, it
 
@@ -47,3 +47,4 @@ def forwardChainingCSP(board, domain, n, row, it=0):
             board[selected_variable] = -1
 
     return None, it
+
