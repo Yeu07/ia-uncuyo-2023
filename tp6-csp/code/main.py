@@ -19,14 +19,14 @@ def printResults(algortihmName, n, time, it):
     draw = ImageDraw.Draw(image)
     font = ImageFont.truetype("arial.ttf", 10)
     textTime = f"Tiempo para {n} reinas con {algortihmName}: {time}"
-    textIt = f"iteraciones: {it1}"
+    textIt = f"iteraciones: {it}"
 
     draw.text((20,80), textTime, fill="black", font=font)
     draw.text((20,120), textIt, fill="black", font=font)
     image.save(f"tp6-csp/code/results/{algortihmName}-{n}.png")
 
     print(f"Tiempo para {n} reinas con {algortihmName}: {time}")
-    print(f"iteraciones: {it1}")
+    print(f"iteraciones: {it}")
     print("---------------------------")
 
 if __name__ == "__main__":
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     for n in problems:
         time1, it1 = excute(searchbacktrackingCSP, n)
         time2, it2 = excute(searchforwardcheckingCSP, n)
-
+        
         printResults(algorithmnames[0], n, time1, it1)
         printResults(algorithmnames[1], n, time2, it2)
 
