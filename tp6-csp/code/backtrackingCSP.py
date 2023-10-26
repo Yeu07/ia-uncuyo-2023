@@ -15,23 +15,24 @@ def isSolution(board, n):
     return len(board) == n
 
 def searchbacktrackingCSP(n):
-    
-    return backtrackingCSP([],n, 0)
+    it = [0]
+    board = backtrackingCSP([],n, it)
+    return board, it[0]
 
-def backtrackingCSP(board, n, it = 0):
+def backtrackingCSP(board, n, iterations):
     if len(board) == n:
-        return board, it
+        return board
     else:
         for col in range(n):
+            iterations[0] += 1
             if not isAttacked(board, col):
                 board.append(col)
                 if isSolution(board, n):
-                    return board, it
+                    return board
                 else:
-                    solution, it = backtrackingCSP(board, n, it +1)
+                    solution = backtrackingCSP(board, n, iterations)
                     if solution != None:
-                        return solution, it
+                        return solution
                 board.pop()
-        return None, it
+        return None
     
-
