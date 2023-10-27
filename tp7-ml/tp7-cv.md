@@ -1,7 +1,8 @@
+# TP7 - IA
 
-## 7. Validación cruzada (Cross validation) (k-folds): La validación cruzada es una técnica para estimar el error de generalización de un algoritmo/modelo de machine learning. La técnica consiste en (previo realizar una mezcla aleatoria) separar el conjunto de datos en k partes (normalmente denominadas folds). Luego en la primera iteración se utilizan k-1 partes para entrenar E1  y se utiliza la restante  para test. El proceso se repite por k iteraciones utilizando en cada una diferentes conjuntos de entrenamiento y test. (Ver figura)
+# PARTE A
 
-### a. Crear una función de nombre create_folds() que reciba como parámetro un dataframe y la cantidad de folds y devuelva una lista de R con la siguiente estructura: list(Fold1=c(...), Fold2=c(..),... Fold10=c()) Donde Fold1 va a contender los índices del dataframe que fueron seleccionados para el primer fold, y así con los demás
+## Create Folds
 
 ```{r}
 library(rpart)
@@ -24,12 +25,10 @@ create_folds <- function(dataframe, k) {
 
 ```
 
-
-
-### b. Crear una función de nombre cross_validation() que reciba como parámetro un data frame y un número de folds y entrene un modelo de árbol de decisión (utilizar paquete rpart) para cada uno de los posibles conjuntos de entrenamiento  y calcule las métricas: Accuracy, Precision, Sensitivity, Specificity  para cada uno de los  posibles conjuntos de tests. Devolver media y desviación estándar
-
+## Cross Validation
 
 ```{r}
+
 library(caret)
 library(rpart)
 
@@ -52,22 +51,43 @@ cross_validation <- function(dataframe, k) {
   # Calcular métricas
   confusion_matrix <- confusionMatrix(predictions, dataframe$inclinacion_peligrosa)
   
+  
 }
 
-data <- read.csv("arbolado-mza-dataset.csv")
+data <- read.csv("data/arbolado-mza-dataset.csv")
 
 data$inclinacion_peligrosa <- as.factor(data$inclinacion_peligrosa)
 print(levels(data$inclinacion_peligrosa))
-
+  
 # Realizar validación cruzada
 result <- cross_validation(data, 4)
 print(result)
+  
+output_text <- capture.output(result)
 
-
-
-
-
-
+writeLines(output_text, "plots/CrossValidation.txt")  
 
 ```
 
+| Prediction | Reference |      |
+|------------|----------:|-----:|
+|            |         0 |    1 |
+| 0          |     28201 |  376 |
+| 1          |       132 | 3203 |
+
+|                        |                  |
+|-----------------------:|-----------------:|
+|               Accuracy |           0.9841 |
+|                 95% CI | (0.9826, 0.9854) |
+|    No Information Rate |           0.8878 |
+|   P-Value [Acc \> NIR] |       \< 2.2e-16 |
+|                  Kappa |           0.9176 |
+| Mcnemar's Test P-Value |       \< 2.2e-16 |
+|            Sensitivity |           0.9953 |
+|            Specificity |           0.8949 |
+|         Pos Pred Value |           0.9868 |
+|         Neg Pred Value |           0.9604 |
+|             Prevalence |           0.8878 |
+|         Detection Rate |           0.8837 |
+|   Detection Prevalence |           0.8955 |
+|      Balanced Accuracy |           0.9451 |
